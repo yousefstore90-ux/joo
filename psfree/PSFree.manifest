@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+# Version 1.0
+
+CACHE:
+index.html
+css/index.css
+js/index.js
+bg.jpg
+bg.jpg
+logo.png
+
+NETWORK:
+*
