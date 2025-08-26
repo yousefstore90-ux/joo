@@ -810,11 +810,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 20%;
-  left: 5px;
-  right: 5px;
+  position: fixed;   /* الأفضل من absolute عشان يفضل ثابت */
+  top: 0;            /* فوق خالص */
+  left: 0;
+  right: 0;
+  padding: 10px;     /* مسافة صغيرة من جوه */
+  font-weight: bold;
+  z-index: 9999;     /* يخليه يبان فوق أي عنصر */
 }
+
 
 #jailbreak-page label {
   font-family: Arial, sans-serif;
