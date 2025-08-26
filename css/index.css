@@ -804,19 +804,20 @@ body {
   left: 5px;
   right: 5px;
 }
-
 #PS4FW {
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;   /* الأفضل من absolute عشان يفضل ثابت */
-  top: 0;            /* فوق خالص */
+  top: 0;            
   left: 0;
   right: 0;
-  padding: 10px;     /* مسافة صغيرة من جوه */
+  padding: 10px;     
   font-weight: bold;
-  z-index: 9999;     /* يخليه يبان فوق أي عنصر */
+  z-index: 9999;     
+  
+  color: yellow !important;  /* يجبر اللون يبقى أصفر */
+  font-size: 30px;           /* حجم الخط */
 }
 
 
